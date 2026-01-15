@@ -1,0 +1,50 @@
+# Core Framework
+streamlit>=1.32.0
+watchdog>=3.0.0
+
+# LangChain & LangGraph
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-groq>=0.1.0
+langchain-chroma>=0.1.0
+langchain-text-splitters>=0.0.1
+langgraph>=0.0.40
+
+# Embeddings (free alternative)
+sentence-transformers>=2.2.0
+langchain-huggingface>=0.0.1
+
+# Vector Store
+chromadb>=0.4.22
+pysqlite3-binary  # Requis pour ChromaDB sur Linux/Cloud
+
+# LLM Providers
+openai>=1.12.0
+
+# Document Processing
+pypdf>=4.0.0
+unstructured>=0.12.0
+python-magic>=0.4.27
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Visualization
+plotly>=5.18.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# Fuzzy matching
+thefuzz>=0.22.0
+python-Levenshtein>=0.25.0
+
+# HTTP requests
+requests>=2.31.0
+tabulate>=0.9.0

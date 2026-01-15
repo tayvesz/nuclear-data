@@ -1,0 +1,70 @@
+
+# PROCÉDURE DE MAINTENANCE DES POMPES PRIMAIRES
+## Document: PROC-PUMP-001 Rev.3
+
+### 1. OBJECTIF
+Cette procédure définit les étapes de maintenance préventive et corrective 
+des pompes du circuit primaire des réacteurs PWR.
+
+### 2. DOMAINE D'APPLICATION
+- Pompes primaires principales (RCP)
+- Pompes d'injection de sécurité (SI)
+- Pompes de refroidissement à l'arrêt (RHR)
+
+### 3. DOCUMENTS DE RÉFÉRENCE
+- Spécification technique ST-PUMP-001
+- Manuel constructeur Framatome
+- Norme RCC-M Section III
+
+### 4. FRÉQUENCE DES INTERVENTIONS
+
+| Type de maintenance | Fréquence | Durée estimée |
+|---------------------|-----------|---------------|
+| Inspection visuelle | Mensuelle | 2h |
+| Contrôle vibratoire | Trimestrielle | 4h |
+| Maintenance préventive | Annuelle | 24-48h |
+| Révision complète | Tous les 10 ans | 1-2 semaines |
+
+### 5. ÉTAPES DE LA MAINTENANCE PRÉVENTIVE
+
+#### 5.1 Préparation
+1. Vérifier l'arrêt de la pompe et la consignation électrique
+2. Vidanger le fluide caloporteur
+3. Déposer les protections et calorifuges
+4. Préparer l'outillage spécifique
+
+#### 5.2 Inspection
+5. Contrôle visuel de la volute et du diffuseur
+6. Mesure des jeux des paliers (limite: 0.15mm)
+7. Contrôle de l'alignement de l'arbre (tolérance: 0.05mm)
+8. Inspection des garnitures mécaniques
+
+#### 5.3 Interventions
+9. Remplacement des joints toriques
+10. Graissage des roulements si applicable
+11. Contrôle/remplacement des garnitures
+12. Réglage des jeux si nécessaire
+
+#### 5.4 Remontage et tests
+13. Remontage dans l'ordre inverse
+14. Remplissage et purge du circuit
+15. Test de rotation à vide (5 min)
+16. Test en charge avec mesure de débit
+
+### 6. CRITÈRES D'ACCEPTATION
+
+| Paramètre | Valeur nominale | Limite |
+|-----------|-----------------|--------|
+| Vibrations | < 2.5 mm/s | 4.5 mm/s |
+| Température paliers | < 70°C | 85°C |
+| Débit | ±5% nominal | ±10% |
+| Pression différentielle | Selon courbe | ±8% |
+
+### 7. TRAÇABILITÉ
+Tous les relevés doivent être consignés dans le registre de maintenance
+et le système GMAO (SAP PM).
+
+### 8. SÉCURITÉ
+- Port des EPI obligatoire (casque, gants, lunettes)
+- Vérification absence de pression résiduelle
+- Permis de travail requis pour intervention > 4h

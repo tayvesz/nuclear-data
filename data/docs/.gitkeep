@@ -1,0 +1,7 @@
+# Place your PDF documents here for RAG ingestion
+# Supported formats: .pdf, .txt
+
+# Example documents:
+# - PROC-PUMP-001.pdf (Maintenance procedures)
+# - RAPPORT-INSP-2024.pdf (Inspection reports)
+# - SPEC-SENSORS.pdf (Technical specifications)

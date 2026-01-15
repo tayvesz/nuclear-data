@@ -1,0 +1,121 @@
+
+# GUIDE DE SÛRETÉ NUCLÉAIRE
+## Concept de Défense en Profondeur
+## Document: GUIDE-SUR-001 Rev.2
+
+### 1. PRINCIPE FONDAMENTAL
+
+La défense en profondeur est le concept de sûreté central des installations 
+nucléaires. Elle repose sur plusieurs niveaux successifs de protection 
+et barrières pour prévenir les accidents et en limiter les conséquences.
+
+---
+
+### 2. LES CINQ NIVEAUX DE DÉFENSE
+
+#### Niveau 1: Prévention des anomalies
+- Conception robuste et marges de sûreté
+- Qualité de construction (RCC-M, RCC-E)
+- Qualification des équipements
+- Formation et compétence du personnel
+
+#### Niveau 2: Surveillance et protection
+- Systèmes de régulation automatique
+- Systèmes de limitation
+- Alarmes et signalisations
+- Procédures d'exploitation normale
+
+#### Niveau 3: Gestion des accidents de référence
+- Systèmes de sauvegarde (injection de sécurité)
+- Systèmes de refroidissement de secours
+- Enceinte de confinement
+- Procédures incidentelles/accidentelles
+
+#### Niveau 4: Gestion des accidents graves
+- Prévention de la fusion du cœur
+- Récupérateur de corium (EPR)
+- Filtration des rejets
+- Plan d'urgence interne (PUI)
+
+#### Niveau 5: Atténuation des conséquences
+- Plan particulier d'intervention (PPI)
+- Évacuation et mise à l'abri
+- Distribution d'iode
+- Gestion post-accidentelle
+
+---
+
+### 3. LES TROIS BARRIÈRES DE CONFINEMENT
+
+```
+┌─────────────────────────────────────────┐
+│        Enceinte de confinement          │  ← 3ème barrière
+│  ┌─────────────────────────────────┐    │
+│  │    Circuit primaire             │    │  ← 2ème barrière
+│  │  ┌─────────────────────────┐    │    │
+│  │  │   Gaine combustible     │    │    │  ← 1ère barrière
+│  │  │  ┌─────────────────┐    │    │    │
+│  │  │  │  Pastilles UO2  │    │    │    │
+│  │  │  └─────────────────┘    │    │    │
+│  │  └─────────────────────────┘    │    │
+│  └─────────────────────────────────┘    │
+└─────────────────────────────────────────┘
+```
+
+#### 3.1 Première barrière: Gaine du combustible
+- Matériau: Alliage de zirconium (Zircaloy-4, M5)
+- Épaisseur: 0.57 mm
+- Fonction: Retient les produits de fission gazeux
+
+#### 3.2 Deuxième barrière: Enveloppe du circuit primaire
+- Matériau: Acier inoxydable austénitique
+- Pression de service: 155 bar
+- Fonction: Confine le fluide caloporteur
+
+#### 3.3 Troisième barrière: Enceinte de confinement
+- Type: Béton précontraint + peau métallique
+- Pression de dimensionnement: 5.2 bar abs
+- Fonction: Dernière barrière avant environnement
+
+---
+
+### 4. FONCTIONS DE SÛRETÉ
+
+#### 4.1 Contrôle de la réactivité
+- Grappes de commande (absorbants)
+- Bore soluble
+- Arrêt automatique réacteur (AAR)
+
+#### 4.2 Évacuation de la puissance résiduelle
+- Générateurs de vapeur
+- Circuit de refroidissement (RRA/RRI)
+- Aspersion de secours (EAS)
+
+#### 4.3 Confinement des matières radioactives
+- Intégrité des trois barrières
+- Ventilation filtrée
+- Contrôle de la pression enceinte
+
+---
+
+### 5. ÉCHELLE INES
+
+| Niveau | Dénomination | Exemple |
+|--------|--------------|---------|
+| 0 | Écart | Défaut mineur sans impact |
+| 1 | Anomalie | Écart aux spécifications |
+| 2 | Incident | Défaillance importante |
+| 3 | Incident grave | Contamination localisée |
+| 4 | Accident sans risque ext. | TMI (1979) |
+| 5 | Accident avec risque ext. | Windscale (1957) |
+| 6 | Accident grave | Kychtym (1957) |
+| 7 | Accident majeur | Tchernobyl, Fukushima |
+
+---
+
+### 6. RÉFÉRENCES RÉGLEMENTAIRES
+
+- Arrêté INB du 7 février 2012
+- Décision ASN 2014-DC-0444 (ESS)
+- Guide ASN n°22 (Conception)
+- Règles fondamentales de sûreté (RFS)

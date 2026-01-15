@@ -1,0 +1,68 @@
+
+# SPÉCIFICATION TECHNIQUE DES CAPTEURS DE TEMPÉRATURE
+## Document: SPEC-TEMP-002 Rev.5
+
+### 1. OBJET
+Spécification des capteurs de température utilisés pour la mesure 
+du fluide primaire dans les réacteurs PWR.
+
+### 2. TYPE DE CAPTEURS
+
+#### 2.1 Sondes PT100 Classe A
+- Principe: Variation de résistance du platine
+- Résistance à 0°C: 100.00 Ω ± 0.06%
+- Coefficient: α = 0.00385 Ω/Ω/°C
+
+#### 2.2 Thermocouples Type K
+- Principe: Effet Seebeck
+- Plage: -200°C à +1250°C
+- Précision: ±1.5°C ou ±0.4%
+
+### 3. CARACTÉRISTIQUES TECHNIQUES
+
+| Paramètre | PT100 Classe A | Thermocouple K |
+|-----------|----------------|----------------|
+| Plage de mesure | -50 à +400°C | -40 à +600°C |
+| Précision | ±(0.15 + 0.002×T)°C | ±1.5°C |
+| Temps de réponse | < 5s (τ63%) | < 3s |
+| Pression max | 160 bar | 200 bar |
+| Durée de vie | 10 ans | 5 ans |
+
+### 4. CONDITIONS D'INSTALLATION
+
+#### 4.1 Environnement
+- Température ambiante: -10°C à +50°C
+- Humidité relative: < 95% sans condensation
+- Vibrations: < 10 m/s² (10-500 Hz)
+
+#### 4.2 Montage
+- Doigt de gant en Inconel 690
+- Immersion minimum: 100mm
+- Orientation: ±30° de la verticale
+
+### 5. ÉTALONNAGE
+
+#### 5.1 Fréquence
+- Étalonnage initial: avant mise en service
+- Étalonnage périodique: annuel
+- Étalonnage après incident
+
+#### 5.2 Points de calibration
+| Point | Température | Tolérance |
+|-------|-------------|-----------|
+| Glace fondante | 0.00°C | ±0.02°C |
+| Eau bouillante | 100.00°C | ±0.05°C |
+| Référence 200°C | 200.00°C | ±0.10°C |
+| Référence 300°C | 300.00°C | ±0.15°C |
+
+### 6. CRITÈRES DE REMPLACEMENT
+- Dérive > 0.5°C confirmée
+- Temps de réponse > 10s
+- Isolation électrique < 100 MΩ
+- Dommage mécanique visible
+- Fin de durée de vie qualifiée
+
+### 7. RÉFÉRENCES
+- IEC 60751 - Thermomètres à résistance de platine
+- IEC 60584 - Thermocouples
+- RCC-E - Règles de conception électrique

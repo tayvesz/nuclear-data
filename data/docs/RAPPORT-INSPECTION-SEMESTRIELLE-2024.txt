@@ -1,0 +1,95 @@
+
+# RAPPORT D'INSPECTION SEMESTRIELLE
+## Centrale: Civaux - Tranche 1
+## Période: Janvier - Juin 2024
+## Document: RAP-INSP-2024-S1-CIV1
+
+### RÉSUMÉ EXÉCUTIF
+
+L'inspection semestrielle de la tranche 1 de Civaux confirme le bon état 
+général des équipements. Le taux de disponibilité de 96.8% est conforme 
+aux objectifs. Trois écarts mineurs ont été identifiés et traités.
+
+---
+
+### 1. INDICATEURS CLÉS DE PERFORMANCE
+
+| Indicateur | Objectif | Réalisé | Statut |
+|------------|----------|---------|--------|
+| Disponibilité | > 95% | 96.8% | ✅ |
+| MTBF moyen | > 2000h | 2340h | ✅ |
+| Incidents INES 0 | < 5 | 3 | ✅ |
+| Incidents INES 1+ | 0 | 0 | ✅ |
+| Maintenances préventives | 100% | 98% | ⚠️ |
+
+---
+
+### 2. ÉVÉNEMENTS SIGNIFICATIFS
+
+#### 2.1 Incident du 15 février 2024
+- **Description**: Arrêt automatique réacteur sur signal bas niveau GV
+- **Cause racine**: Dérive capteur niveau P-125
+- **Sévérité**: INES 0 (écart sans impact sûreté)
+- **Actions correctives**: 
+  - Recalibration capteur effectuée
+  - Renforcement surveillance mensuelle
+  
+#### 2.2 Anomalie du 8 avril 2024
+- **Description**: Fuite mineure sur joint de vanne 1VP-023
+- **Débit fuite**: 0.5 L/h (limite: 5 L/h)
+- **Actions**: Resserrage en service, remplacement programmé
+
+---
+
+### 3. BILAN DES MAINTENANCES
+
+#### 3.1 Maintenances préventives réalisées
+| Équipement | Nombre | Conformité |
+|------------|--------|------------|
+| Pompes | 24 | 100% |
+| Vannes | 156 | 97% |
+| Capteurs | 89 | 100% |
+| Systèmes élec. | 45 | 96% |
+
+#### 3.2 Maintenances correctives
+- Total: 18 interventions
+- Durée moyenne: 4.2 heures
+- Délai moyen d'intervention: 1.8 heures
+
+---
+
+### 4. CONTRÔLES NON DESTRUCTIFS
+
+| Type de contrôle | Nombre | Indications | Acceptables |
+|------------------|--------|-------------|-------------|
+| Ultrasons | 34 | 2 | 2 |
+| Radiographie | 12 | 0 | - |
+| Ressuage | 28 | 1 | 1 |
+| Magnétoscopie | 15 | 0 | - |
+
+---
+
+### 5. RECOMMANDATIONS
+
+1. **Priorité haute**: Planifier remplacement capteur P-125 lors 
+   du prochain arrêt programmé (ASR 2024)
+
+2. **Priorité moyenne**: Renforcer le programme de contrôle des 
+   vannes de la boucle 2 (3 écarts identifiés)
+
+3. **Information**: Mettre à jour la procédure PROC-CAL-001 suite 
+   aux retours d'expérience du semestre
+
+---
+
+### 6. CONCLUSION
+
+La tranche 1 de Civaux a maintenu un niveau de performance satisfaisant 
+durant le premier semestre 2024. Les écarts identifiés sont de niveau 
+mineur et font l'objet d'un suivi approprié.
+
+**Prochaine inspection**: Juillet 2024
+
+---
+Approuvé par: Chef d'Exploitation - Civaux
+Date: 2024-07-01
