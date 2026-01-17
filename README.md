@@ -133,4 +133,8 @@ Le projet inclut des données réalistes :
 
 ## 📄 Licence
 
+Copyright (c) 2026 Yves Zango
+
 MIT License - Projet de démonstration
+
+Retrouvez-moi sur [LinkedIn](https://www.linkedin.com/in/yves-t-a-z-4b7b7724/)
